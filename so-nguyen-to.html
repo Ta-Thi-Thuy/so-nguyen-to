@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <script>
+       function checkPrime (){
+           let N = +prompt('Nhap mot so :');
+           let i = 2;
+           while (i < N){
+               if (N % i ==0){
+                   alert(N + ' khong phai la so nguyen to!');
+                   return ;
+               }else {
+                   i++;
+               }
+               alert(N + ' La so nguyen to!')
+           }
+       }
+       checkPrime();
+
+   </script>
+
+</body>
+</html>
